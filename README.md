@@ -4,7 +4,7 @@ Projeto 01 — Aplicativo mobile desenvolvido em Flutter para a disciplina de De
 
 ## Sobre o Projeto
 
-Implementação do clássico jogo **Jokenpo** (Pedra, Papel e Tesoura) com interface gráfica para Android. O jogador disputa rodadas contra o computador, que faz suas escolhas de forma aleatória.
+Implementação do clássico jogo **Jokenpo** (Pedra, Papel e Tesoura) com interface gráfica em Flutter. O jogador disputa rodadas contra o computador, que faz suas escolhas de forma aleatória.
 
 ## Funcionalidades
 
@@ -26,8 +26,11 @@ Implementação do clássico jogo **Jokenpo** (Pedra, Papel e Tesoura) com inter
 **Pré-requisitos:** Flutter SDK instalado ([instruções](https://docs.flutter.dev/get-started/install))
 
 ```bash
-# Clone ou extraia o projeto
-cd jokenpo
+# Clone o repositório
+git clone https://github.com/EZblack1/Jokenpo_flutter.git
+
+# Entre na pasta do projeto
+cd Jokenpo_flutter
 
 # Instale as dependências
 flutter pub get
@@ -41,6 +44,8 @@ flutter run
 ```
 lib/
 └── main.dart   # Código principal do app (lógica + interface)
+
+arquivo01.dart  # Cópia do código principal usada na atividade
 ```
 
 ## Tecnologias
@@ -48,6 +53,11 @@ lib/
 - [Flutter](https://flutter.dev/) — Framework de UI multiplataforma
 - [Dart](https://dart.dev/) — Linguagem de programação
 - `dart:math` — Geração de números aleatórios para a jogada do computador
+
+## Plataforma
+
+- Funciona em Flutter (Android, Web e Desktop)
+- Foco acadêmico: execução principal em Android
 
 ## Entrega
 
